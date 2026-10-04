@@ -1,6 +1,6 @@
 {
   "update": {
-    "switch": true,
+    "switch": false,
     "version_code": 23,
     "version_name": "1.9.0",
     "force": false,
