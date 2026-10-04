@@ -1,6 +1,6 @@
 {
   "announcement": {
-    "switch": true,
+    "switch": false,
     "id": "20261004001",
     "force": false,
     "min_version": 0,
