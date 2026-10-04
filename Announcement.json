@@ -1,0 +1,54 @@
+{
+  "announcement": {
+    "switch": true,
+    "id": "20261004001",
+    "force": false,
+    "min_version": 0,
+    "max_version": 0,
+    "dialog": {
+      "type": "text_image",
+      "style": "square",
+      "theme": "light",
+      "align": "left",
+      "title": "随机图片Pro 更新公告",
+      "content": "1. 新增云端弹窗，支持远程公告与版本更新\n2. 大图查看支持自由缩放，新增缩放控制条\n3. 搜索页改为瀑布流，原比例模式下不再有空位\n4. 首页新增 R18 与 API 快捷切换按钮",
+      "media": {
+        "image_url": "",
+        "video_url": "",
+        "click_to_open": "",
+        "auto_play": false,
+        "loop": false
+      }
+    },
+    "buttons": {
+      "switch": true,
+      "layout": "horizontal",
+      "items": [
+        {
+          "switch": true,
+          "text": "加入QQ群",
+          "style": "secondary",
+          "action": "copy",
+          "value": "123456789",
+          "close_after": false
+        },
+        {
+          "switch": true,
+          "text": "访问主页",
+          "style": "secondary",
+          "action": "url",
+          "value": "https://github.com/Maoqi-517/-",
+          "close_after": false
+        },
+        {
+          "switch": true,
+          "text": "我知道了",
+          "style": "primary",
+          "action": "dismiss",
+          "value": "",
+          "close_after": true
+        }
+      ]
+    }
+  }
+}
