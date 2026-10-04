@@ -1,0 +1,50 @@
+{
+  "update": {
+    "switch": true,
+    "version_code": 23,
+    "version_name": "1.9.0",
+    "force": false,
+    "title": "发现新版本 1.9.0",
+    "subtitle": "本次更新带来多项改进，建议升级体验",
+    "size": "8.5MB",
+    "changelog": "优化了大图查看体验，修复了若干已知问题。",
+    "features": [
+      {
+        "title": "大图支持自由缩放",
+        "desc": "新增缩放控制条，双指缩放之外可用按钮精确调节"
+      },
+      {
+        "title": "搜索页改瀑布流",
+        "desc": "原比例模式下图片之间不再出现空位"
+      },
+      {
+        "title": "首页快捷切换",
+        "desc": "一键切换 R18 模式与 API 接口"
+      }
+    ],
+    "screenshots": [],
+    "download_url": "https://ghfast.top/https://raw.githubusercontent.com/Maoqi-517/-/main/app-release.apk",
+    "buttons": {
+      "switch": true,
+      "layout": "horizontal",
+      "items": [
+        {
+          "switch": true,
+          "text": "以后再说",
+          "style": "secondary",
+          "action": "dismiss",
+          "value": "",
+          "close_after": true
+        },
+        {
+          "switch": true,
+          "text": "立即更新",
+          "style": "primary",
+          "action": "url",
+          "value": "https://ghfast.top/https://raw.githubusercontent.com/Maoqi-517/-/main/app-release.apk",
+          "close_after": false
+        }
+      ]
+    }
+  }
+}
