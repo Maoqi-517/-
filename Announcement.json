@@ -1,6 +1,6 @@
 {
   "announcement": {
-    "switch": false,
+    "switch": true,
     "id": "20261004001",
     "force": false,
     "min_version": 0,
@@ -10,8 +10,8 @@
       "style": "square",
       "theme": "light",
       "align": "left",
-      "title": "随机图片Pro 更新公告",
-      "content": "1. 新增云端弹窗，支持远程公告与版本更新\n2. 大图查看支持自由缩放，新增缩放控制条\n3. 搜索页改为瀑布流，原比例模式下不再有空位\n4. 首页新增 R18 与 API 快捷切换按钮",
+      "title": "测试弹窗",
+      "content": "1. 测试\n2. 测试2\n3. 测试3\n4. 测试4",
       "media": {
         "image_url": "",
         "video_url": "",
