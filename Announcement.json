@@ -1,24 +1,20 @@
 {
   "announcement": {
     "switch": true,
-    "id": "20261004001",
+    "id": "notice_2026_10_11",
     "force": false,
+    "title": "公告标题",
+    "content": "这里是公告正文内容，可以写多行。\n例如：服务器维护通知、功能上线预告等。",
+    "theme": "light",
+    "align": "center",
     "min_version": 0,
     "max_version": 0,
-    "dialog": {
-      "type": "text_image",
-      "style": "square",
-      "theme": "light",
-      "align": "left",
-      "title": "测试弹窗",
-      "content": "1. 测试\n2. 测试2\n3. 测试3\n4. 测试4",
-      "media": {
-        "image_url": "",
-        "video_url": "",
-        "click_to_open": "",
-        "auto_play": false,
-        "loop": false
-      }
+    "media": {
+      "switch": false,
+      "type": "image",
+      "image_url": "",
+      "video_url": "",
+      "click_to_open": ""
     },
     "buttons": {
       "switch": true,
@@ -26,11 +22,11 @@
       "items": [
         {
           "switch": true,
-          "text": "加入QQ群",
-          "style": "secondary",
-          "action": "copy",
-          "value": "123456789",
-          "close_after": false
+          "text": "我知道了",
+          "style": "primary",
+          "action": "dismiss",
+          "value": "",
+          "close_after": true
         },
         {
           "switch": true,
@@ -39,14 +35,6 @@
           "action": "url",
           "value": "https://github.com/Maoqi-517/-",
           "close_after": false
-        },
-        {
-          "switch": true,
-          "text": "我知道了",
-          "style": "primary",
-          "action": "dismiss",
-          "value": "",
-          "close_after": true
         }
       ]
     }
