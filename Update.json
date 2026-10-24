@@ -1,1 +1,33 @@
-"update": {  "switch": true,  "version_code": 12,  "version_name": "1.2.0",  "force": true,  "title": "请软天空内更新到最新版",  "subtitle": "本次更新修复了严重问题，请立即升级",  "size": "8.5MB",  "download_url": "http://a.ruansky.com/up/5272757/",  "features": [    {"title": "该版本为最终版，请立即更新，否则你将无法使用此软件！", "desc": "请你立即更新！"}  ],  "buttons": {    "switch": true,    "items": [      {"switch": true, "text": "立即更新", "style": "primary",       "action": "url", "value": "http://a.ruansky.com/up/5272757/", "close_after": false}    ]  }}
+{
+  "update": {
+    "switch": true,
+    "version_code": 22,
+    "version_name": "1.8",
+    "force": true,
+    "min_version": 1,
+    "max_version": 21,
+    "title": "请软天空内更新到最新版",
+    "subtitle": "本次更新修复了严重问题，请立即升级",
+    "size": "7.13MB",
+    "download_url": "http://a.ruansky.com/up/5272757/",
+    "features": [
+      {
+        "title": "该版本为最终版，请立即更新，否则你将无法使用此软件！",
+        "desc": "请你立即更新！"
+      }
+    ],
+    "buttons": {
+      "switch": true,
+      "items": [
+        {
+          "switch": true,
+          "text": "立即更新",
+          "style": "primary",
+          "action": "url",
+          "value": "http://a.ruansky.com/up/5272757/",
+          "close_after": false
+        }
+      ]
+    }
+  }
+}
