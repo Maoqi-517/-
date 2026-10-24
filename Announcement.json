@@ -1,6 +1,6 @@
 {
   "announcement": {
-    "switch": true,
+    "switch": false,
     "id": "notice_2026_10_11",
     "force": false,
     "title": "公告标题",
